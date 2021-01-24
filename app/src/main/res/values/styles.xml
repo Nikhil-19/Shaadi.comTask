@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="accept_decline_text">
+        <item name="android:paddingTop">@dimen/padding1x</item>
+        <item name="android:paddingBottom">@dimen/padding1x</item>
+        <item name="android:paddingRight">@dimen/padding1x</item>
+        <item name="android:textColor">@color/text_color_holder</item>
+        <item name="android:textSize">@dimen/text_size_profile_holder_item</item>
+    </style>
+</resources>

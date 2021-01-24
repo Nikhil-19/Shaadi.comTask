@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProfileCard</string>
+    <string name="title_text"><b>Accept\n</b>invitations from\nMatches you like</string>
+    <string name="label_decline">Decline</string>
+    <string name="label_accept">Accept</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="msg_please_wait">Loading Data Please wait...</string>
+
+</resources>

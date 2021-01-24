@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/main_bg"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_marginLeft="@dimen/margin4x"
+            android:padding="@dimen/padding3x"
+            android:layout_above="@id/rv_profile_data"
+            android:textSize="@dimen/text_size_main_heading"
+            android:textColor="@color/title_text_color"
+            android:text="@string/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="@dimen/margin2x"
+            android:layout_marginLeft="@dimen/margin4x"
+            android:layout_marginRight="@dimen/margin4x"
+            android:padding="@dimen/padding3x"
+            android:id="@+id/rv_profile_data"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</layout>

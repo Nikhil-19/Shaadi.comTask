@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:innerRadiusRatio="3.0"
+            android:shape="ring"
+            android:thickness="1dp"
+            android:useLevel="false">
+            <solid android:color="@color/background_color" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/selected_check_bg"
+        android:gravity="center"
+        android:left="10dp"
+        android:right="10dp" />
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/ic_baseline_check_white"/>
+</layer-list>

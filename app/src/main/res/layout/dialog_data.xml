@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="@dimen/radius4x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="@dimen/padding4x"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin3x"
+                android:padding="@dimen/padding3x"
+                android:text="@string/app_name"
+                />
+
+            <ProgressBar
+               android:indeterminate="true"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="@dimen/margin3x"
+               />
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin3x"
+                android:padding="@dimen/padding2x"
+                android:text="@string/msg_please_wait"
+                />
+
+            <Button
+                android:id="@+id/dialog_btn_cancel"
+                android:textColor="@color/white"
+                android:padding="@dimen/padding3x"
+                android:background="@drawable/btn_shape"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_cancel"
+                android:layout_marginBottom="@dimen/margin3x"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>

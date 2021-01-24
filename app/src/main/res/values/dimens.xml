@@ -1,0 +1,64 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+    <dimen name="margin1x">4dp</dimen>
+    <dimen name="margin2x">8dp</dimen>
+    <dimen name="margin3x">12dp</dimen>
+    <dimen name="margin4x">16dp</dimen>
+    <dimen name="margin5x">20dp</dimen>
+    <dimen name="margin6x">24dp</dimen>
+
+    <dimen name="padding1x">4dp</dimen>
+    <dimen name="padding2x">8dp</dimen>
+    <dimen name="padding3x">12dp</dimen>
+    <dimen name="padding4x">16dp</dimen>
+    <dimen name="padding5x">20dp</dimen>
+    <dimen name="padding6x">24dp</dimen>
+
+    <dimen name="radius1x">8dp</dimen>
+    <dimen name="radius2x">12dp</dimen>
+    <dimen name="radius3x">16dp</dimen>
+    <dimen name="radius4x">24dp</dimen>
+
+    <dimen name="size1x">8dp</dimen>
+    <dimen name="size2x">12dp</dimen>
+    <dimen name="size3x">16dp</dimen>
+    <dimen name="size4x">24dp</dimen>
+    <dimen name="size5x">32dp</dimen>
+
+    <dimen name="imagesize1x">32dp</dimen>
+    <dimen name="imagesize2x">48dp</dimen>
+    <dimen name="imagesize3x">64dp</dimen>
+    <dimen name="imagesize4x">72dp</dimen>
+    <dimen name="imagesize5x">85dp</dimen>
+    <dimen name="imagesize6x">120dp</dimen>
+
+    <dimen name="iconsize1x">8dp</dimen>
+    <dimen name="iconsize2x">16dp</dimen>
+    <dimen name="iconsize3x">24dp</dimen>
+    <dimen name="iconsize4x">32dp</dimen>
+    <dimen name="iconsize5x">48dp</dimen>
+    <dimen name="diverder_height">1dp</dimen>
+
+    <dimen name="card_elevation">10dp</dimen>
+
+    <dimen name="default_textsize">13sp</dimen>
+    <dimen name="material_chip_height">32dp</dimen>
+    <dimen name="min_horizontal_spacing">8dp</dimen>
+    <dimen name="vertical_spacing">8dp</dimen>
+    <dimen name="button_height">80dp</dimen>
+
+    <dimen name="text_size_profile_holder_item">19dp</dimen>
+    <dimen name="text_size_profile_holder_heading">23dp</dimen>
+    <dimen name="text_size_main_heading">26dp</dimen>
+
+
+
+</resources>
