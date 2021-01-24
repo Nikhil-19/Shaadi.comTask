@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:background="@drawable/main_bg"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".ui.profilescreen.MainActivity">
 
         <TextView
             android:layout_marginLeft="@dimen/margin4x"

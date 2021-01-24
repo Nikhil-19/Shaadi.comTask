@@ -1,4 +1,4 @@
-package com.redmango.profilecard
+package com.redmango.profilecard.ui.profilescreen
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

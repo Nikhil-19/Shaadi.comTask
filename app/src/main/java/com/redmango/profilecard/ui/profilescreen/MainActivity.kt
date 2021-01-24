@@ -1,4 +1,4 @@
-package com.redmango.profilecard
+package com.redmango.profilecard.ui.profilescreen
 
 import android.content.Context
 import android.graphics.Point
@@ -13,9 +13,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.drsmarineservices.nikhil.data.remote.ApiCallBackResult
 import com.example.drsmarineservices.nikhil.ui.common.CustomDialogFragment
 import com.example.drsmarineservices.nikhil.utility.LogUtil
+import com.redmango.profilecard.R
+import com.redmango.profilecard.adapters.ProfileAdapter
 import com.redmango.profilecard.data.local.db.entitity.ProfileDetails
 import com.redmango.profilecard.databinding.ActivityMainBinding
-import java.lang.Exception
 import kotlin.math.pow
 
 

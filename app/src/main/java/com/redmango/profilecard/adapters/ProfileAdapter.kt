@@ -1,7 +1,6 @@
-package com.redmango.profilecard
+package com.redmango.profilecard.adapters
 
 import android.content.Context
-import android.sax.RootElement
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,14 +8,14 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.RelativeLayout
 import android.widget.TextView
-import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.drsmarineservices.nikhil.utility.LogUtil
+import com.redmango.profilecard.R
 import com.redmango.profilecard.data.local.db.entitity.ProfileDetails
 import java.lang.StringBuilder
 
-class ProfileAdapter(val ctx: Context, val profileDetailsList: List<ProfileDetails>, val onItemClickListener: ProfileAdapter.OnItemClickListener) :
+class ProfileAdapter(val ctx: Context, val profileDetailsList: List<ProfileDetails>, val onItemClickListener: OnItemClickListener) :
         RecyclerView.Adapter<ProfileAdapter.ProfileViewHolder>() {
 
     inner class ProfileViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
